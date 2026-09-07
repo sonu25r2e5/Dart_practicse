@@ -6,9 +6,10 @@ void main() {
   // countries.add('Iceland');
   // countries.add('nepal');
 
-  countries.remove('uk');
+  // countries.remove('uk');
 
-  print(countries);
+  print(countries.first);
+  print(countries.length);
 
   // print(countries.elementAt(0));
 }
